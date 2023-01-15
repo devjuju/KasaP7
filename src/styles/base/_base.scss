@@ -1,0 +1,13 @@
+/*----------------------------------- sélecteur universel du site -----------------------------*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: $body-font-family;
+  background-color: $colour-body;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+

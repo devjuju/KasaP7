@@ -1,0 +1,10 @@
+/*------------------------------------------- Header ------------------------------------------*/
+header{
+    align-items: center;
+    display: inline-flex;
+    margin: 40px 10%;
+    width: 80%;
+    & img{
+        height: 68px;
+    }
+}

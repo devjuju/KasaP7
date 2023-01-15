@@ -1,0 +1,36 @@
+/*------------------------------------------- Banner ----------------------------------------*/
+.banner{
+    border-radius: 25px;
+    height: 225px;
+    margin-bottom: 35px;
+    position: relative;
+    & img{
+        border-radius: 25px;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+    & div{
+        background-color: $colour-footer;
+        border-radius: 25px;
+        height: 100%;
+        left: 0;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    & h1{
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 48px;
+        color: $colour-body;
+        line-height: 142.6%;
+        left: 25.9%;
+        right: 25.14%;
+        top: 24.32%;
+        bottom: 69.04%;
+        position: absolute;
+    }
+}

@@ -1,0 +1,21 @@
+/*----------------------------------------- Couleurs globales -----------------------------------*/
+$colour-body: white;
+$colour-background: #EAEAEA;
+$colour-dropdown: #F6F6F6;
+$colour-footer: black;
+$colour-theme: #FF6060;
+
+/*----------------------------------------- Police principale -----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$body-font-family: 'Montserrat', sans-serif;
+$font-bold: 700;
+$font-medium: 500;
+$font-regular: 400;
+
+/*----------------------------------------- Supports -----------------------------------*/
+$desktop: 1240px;
+$tablette: 992px;
+$mobile-large: 475px;
+$mobile-medium: 375px;
+$mobile-slim: 320px;
+
