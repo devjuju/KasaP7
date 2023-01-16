@@ -92,6 +92,47 @@ html, body {
   position: absolute;
 }
 
+.dropdown {
+  border-radius: 5px;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.dropdown .header-dropdown {
+  align-items: center;
+  background-color: #FF6060;
+  border-radius: 5px;
+  display: inline-flex;
+  height: 25%;
+  min-height: 50px;
+  width: 100%;
+}
+.dropdown .header-dropdown .titre-dropdown {
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px 10px;
+}
+.dropdown .header-dropdown .titre-dropdown .fleche-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 100%;
+}
+.dropdown .header-dropdown .titre-dropdown .fleche-dropdown.true {
+  justify-content: start;
+  transform: rotate(-90deg);
+}
+.dropdown .description-dropdown {
+  background-color: #F6F6F6;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #FF6060;
+  height: 75%;
+  margin-top: -10px;
+  min-height: 100px;
+  padding: 25px 10px 10px 10px;
+}
+
 /*------------------------------------------- Header ------------------------------------------*/
 header {
   align-items: center;
