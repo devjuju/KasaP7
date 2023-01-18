@@ -1,0 +1,16 @@
+/*------------------------------------------- Page about ----------------------------------------*/
+.dropdown-about {
+    margin:auto;
+    padding-left: 209px;
+    padding-right: 209px; 
+}
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px){
+    /*------------------------------------------- Page about ----------------------------------------*/
+    .dropdown-about {
+        margin:auto;
+        padding-left: 111px;
+        padding-right: 111px; 
+    }
+}

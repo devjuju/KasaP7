@@ -1,6 +1,5 @@
 /*------------------------------------------- Page Home ----------------------------------------*/
 .section-card{
-    margin:auto;
     margin-left: 100px;
     margin-right: 100px; 
     background-color: #f6f6f6;
@@ -9,4 +8,19 @@
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 50px 60px; 
     padding: 55px 50px;
+}
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px){
+   /*------------------------------------------- Page Home ----------------------------------------*/
+   .section-card{
+        margin-left: 53px;
+        margin-right: 53px; 
+        background-color: #f6f6f6;
+        border-radius: 13px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 14px 30px; 
+        padding: 28px 25px;
+    }
 }

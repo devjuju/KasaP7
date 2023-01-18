@@ -3,21 +3,40 @@ nav {
   justify-content: flex-end;
   display: flex;
   width: 100%;
-
-      .nav-link{ 
-        font-family: $body-font-family;
-        font-style: normal;
-        font-weight: $font-medium;
-        font-size: 24px;
-        line-height: 142.6%;
-        color: $colour-theme;
-        margin: auto 25px;
-        text-decoration: none;
-        
-           &:hover{
-            color: $colour-footer;
-          }
-        
-      }
-  
+  .nav-link{ 
+    font-family: $body-font-family;
+    font-style: normal;
+    font-weight: $font-medium;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: $colour-theme;
+    margin: auto 25px;
+    text-decoration: none;
+    &:hover{
+      color: $colour-footer;
+    } 
   }
+}
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px){
+  /*----------------------------------- navigation ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    .nav-link{ 
+      font-family: $body-font-family;
+      font-style: normal;
+      font-weight: $font-medium;
+      font-size: 13px;
+      line-height: 142.6%;
+      color: $colour-theme;
+      margin: auto 25px;
+      text-decoration: none;
+      &:hover{
+        color: $colour-footer;
+      } 
+    }
+  }
+}

@@ -30,10 +30,52 @@
         font-size: 48px;
         color: $colour-body;
         line-height: 142.6%;
-        left: 25.9%;
-        right: 25.14%;
+        left: 25%;
+        right: 20%;
         top: 38%;
         bottom: 69.04%;
         position: absolute;
     }
 }
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px){
+    /*------------------------------------------- Banner ----------------------------------------*/
+    .banner{
+        margin-left: 53px;
+        margin-right: 53px; 
+        border-radius: 25px;
+        height: 119px;
+        margin-bottom: 35px;
+        position: relative;
+        & img{
+            border-radius: 25px;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+        & div{
+            background-color: $colour-footer;
+            border-radius: 25px;
+            height: 100%;
+            left: 0;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        & h1{
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 25px;
+            color: $colour-body;
+            left: 20%;
+            right: 9%;
+            top: 38%;
+            bottom: 69.04%;
+            position: absolute;
+        }
+    }
+}
+  

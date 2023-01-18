@@ -10,3 +10,67 @@ html, body {
   margin:auto;
   padding: 0;
 }
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px){
+  /*----------------------------------- Sélecteur universel du site ---------------------------*/
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding: 0;
+  }
+}
+
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
+@media screen and (max-width: 425px){
+  /*----------------------------------- Sélecteur universel du site ---------------------------*/
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding: 0;
+  }
+}
+
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
+@media screen and (max-width: 375px){
+  /*----------------------------------- Sélecteur universel du site ---------------------------*/
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding: 0;
+  }
+}
+
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
+@media screen and (max-width: 320px){
+  /*----------------------------------- Sélecteur universel du site ---------------------------*/
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding: 0;
+  }
+}
