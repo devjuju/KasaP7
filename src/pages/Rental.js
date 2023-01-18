@@ -7,6 +7,7 @@ import Etoile from "../assets/RedStar.png";
 import EtoileVide from "../assets/EmptyStar.png";
 import Dropdown from "../components/Dropdown";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Rental() {
     /* Récupère la bonne fiche */
@@ -44,15 +45,15 @@ function Rental() {
                     <div className="Fiche">
                         <Header />
                         <Carrousel images={ficheLogement?.pictures}/>
-                        <div className="logements-propietaire">
-                            <div className="information-logements">
-                                <span className="titre-logement">{ficheLogement?.title}</span>
-                                <span className="endroit-logement">{ficheLogement?.location}</span>
+                        <section className="logements-propietaire">
+                            <article className="information-logements">
+                                <h1 className="titre-logement">{ficheLogement?.title}</h1>
+                                <p className="endroit-logement">{ficheLogement?.location}</p>
                                 <div className="tags">
                                     {tagsLogement}
                                 </div>
-                            </div>
-                            <div className="proprietaire-note">
+                            </article>
+                            <article className="proprietaire-note">
                                 <div className="information-propietaire">
                                     <span className="nom-proprietaire">{ficheLogement?.host.name}</span>
                                     <img className="photo-propietaire" src={ficheLogement?.host.picture} alt="Propriétaire"/>
@@ -60,12 +61,13 @@ function Rental() {
                                 <div className="note">
                                     {noteLogement}
                                 </div>
-                            </div>
-                        </div>
-                        <div className="description-equipements">
+                            </article>
+                        </section>
+                        <section className="description-equipements">
                             <Dropdown titre="Description" description={ficheLogement?.description}/>
                             <Dropdown titre="Équipements" description={equipementsLogement}/>
-                        </div>
+                        </section>
+                        <Footer />
                     </div>
                 ) : <Navigate replace to="/404"/>
             }

@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import ListeLogements from "../assets/rentals.json";
 import Header from "../components/Header";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 
 function Home() {
     return(
@@ -14,7 +15,7 @@ function Home() {
             <section className="section-card">
                 {ListeLogements.map((logement) => <NavLink key={logement.id} to={"/logement/"+logement.id+"/#"}><Card key={logement.id} id={logement.id} image={logement.cover} titre={logement.title} /></NavLink>)}
             </section>
-        
+            <Footer />
         </div>
     );
 }

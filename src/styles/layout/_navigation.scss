@@ -3,6 +3,7 @@ nav {
   justify-content: flex-end;
   display: flex;
   width: 100%;
+
       .nav-link{ 
         font-family: $body-font-family;
         font-style: normal;
@@ -12,6 +13,7 @@ nav {
         color: $colour-theme;
         margin: auto 25px;
         text-decoration: none;
+        
            &:hover{
             color: $colour-footer;
           }

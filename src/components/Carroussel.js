@@ -24,7 +24,8 @@ function Carrousel({images}) {
     };
 
     return(
-        <div className="carrousel">
+        <section className="section-carrousel">
+               <div className="carrousel">
             {
                 nombreImg > 1 && <img className="fleche fleche-gauche" src={fleche} alt="Contenu précedént" onClick={imgPrecedente}/>
             }
@@ -39,6 +40,8 @@ function Carrousel({images}) {
                 nombreImg > 1 && <img className="fleche fleche-droite" src={fleche} alt="Contenu suivant" onClick={imgSuivante}/>
             }
         </div>
+        </section>
+       
     );
 }
 

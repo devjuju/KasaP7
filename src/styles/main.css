@@ -92,6 +92,45 @@ html, body {
   position: absolute;
 }
 
+.carrousel {
+  display: block;
+  height: 415px;
+  margin: auto auto 30px auto;
+  position: relative;
+  width: 100%;
+}
+.carrousel .fleche {
+  position: absolute;
+  width: 45px;
+  z-index: 1;
+}
+.carrousel .fleche :hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.carrousel .fleche-gauche {
+  margin-left: 25px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+}
+.carrousel .fleche-droite {
+  margin-right: 25px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carrousel .carrousel-img {
+  border-radius: 15px;
+  height: 415px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: none;
+  width: 100%;
+}
+.carrousel .carrousel-img.actif {
+  display: block;
+}
+
 .dropdown {
   border-radius: 5px;
   margin-bottom: 35px;
@@ -107,22 +146,34 @@ html, body {
   width: 100%;
 }
 .dropdown .header-dropdown .titre-dropdown {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
   color: white;
+  padding-top: 8px;
   height: 50px;
-  line-height: 50px;
   margin: 5px 10px;
 }
-.dropdown .header-dropdown .titre-dropdown .fleche-dropdown {
+.dropdown .header-dropdown .fleche-dropdown {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
   width: 100%;
+  cursor: pointer;
+  position: relative;
 }
-.dropdown .header-dropdown .titre-dropdown .fleche-dropdown.true {
+.dropdown .header-dropdown .fleche-dropdown.true {
   justify-content: start;
-  transform: rotate(-90deg);
+  transform: rotate(-180deg);
 }
 .dropdown .description-dropdown {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142.6%;
   background-color: #F6F6F6;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -131,6 +182,25 @@ html, body {
   margin-top: -10px;
   min-height: 100px;
   padding: 25px 10px 10px 10px;
+}
+
+/*------------------------------------------- Tags ----------------------------------------*/
+.tags {
+  display: inline-block;
+  text-align: center;
+}
+.tags span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142.6%;
+  background-color: #FF6060;
+  border-radius: 10px;
+  color: white;
+  margin: auto 10px;
+  min-width: 115px;
+  padding: 5px 15px;
 }
 
 /*------------------------------------------- Header ------------------------------------------*/
@@ -146,9 +216,9 @@ header img {
 
 /*----------------------------------- navigation ----------------------------------------------*/
 nav {
-  justify-content: flex-end;
   display: flex;
-  width: 100%;
+  align-items: flex-end;
+  text-align: right;
 }
 nav .nav-link {
   font-family: "Montserrat", sans-serif;
@@ -169,6 +239,34 @@ section {
   margin: auto;
 }
 
+/*------------------------------------------- Footer ----------------------------------------*/
+footer {
+  background-color: black;
+  height: 200px;
+  margin-top: 35px;
+  position: relative;
+}
+footer .content {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  padding: 25px 0px;
+}
+footer .content img {
+  display: block;
+  margin: auto;
+}
+footer .content p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  text-align: center;
+  color: white;
+}
+
+/*------------------------------------------- Page Home ----------------------------------------*/
 .section-card {
   background-color: #f6f6f6;
   border-radius: 25px;
@@ -176,4 +274,114 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px 60px;
   padding: 55px 50px;
+}
+
+/*------------------------------------------- Page fiche du logement ----------------------------------------*/
+.logements-propietaire {
+  display: inline-flex;
+  width: 100%;
+}
+.logements-propietaire .information-logements {
+  flex-direction: column;
+}
+.logements-propietaire .information-logements h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #FF6060;
+}
+.logements-propietaire .information-logements p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 142.6%;
+  color: #FF6060;
+}
+.logements-propietaire .information-propietaire {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+}
+.logements-propietaire .information-propietaire span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  color: #FF6060;
+  margin-right: 10px;
+  text-align: right;
+  width: 100px;
+}
+.logements-propietaire .information-propietaire img {
+  border-radius: 50%;
+  height: 64px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 64px;
+}
+.logements-propietaire .note {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.logements-propietaire .note .etoile {
+  height: 30px;
+  width: 30px;
+}
+
+.description-equipements {
+  display: inline-flex;
+  gap: 0 75px;
+  line-height: 22.5px;
+  list-style: none;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.description-equipements > .dropdown {
+  width: 50%;
+}
+
+/*------------------------------------------- Page error 404 ----------------------------------------*/
+.section-error404 {
+  text-align: center;
+}
+.section-error404 article {
+  margin-bottom: 56px;
+}
+.section-error404 article h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 142.6%;
+  color: #FF6060;
+  margin: auto 25px;
+}
+.section-error404 article span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #FF6060;
+}
+.section-error404 .link-404 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  color: #FF6060;
+  text-decoration: underline;
+}
+.section-error404 .link-404:hover {
+  color: black;
 }/*# sourceMappingURL=main.css.map */

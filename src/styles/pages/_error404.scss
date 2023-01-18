@@ -1,0 +1,41 @@
+/*------------------------------------------- Page error 404 ----------------------------------------*/
+.section-error404 {
+    margin:auto;
+    padding-left: 100px;
+    padding-right: 100px; 
+    text-align: center;
+    margin-bottom: 163px;
+    & article{
+        margin-bottom: 198px;
+        & h1{
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-bold;
+            font-size: 288px;
+            line-height: 142.6%;
+            color: $colour-theme;
+            margin: auto 25px;
+        }
+        & span{
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 36px;
+            line-height: 142.6%;
+            color: $colour-theme;
+        }
+    }
+   
+    .link-404 {
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 18px;
+        line-height: 142.6%;
+        color: $colour-theme;
+        text-decoration:underline;
+        &:hover{
+            color: $colour-footer;
+        }
+    }
+}

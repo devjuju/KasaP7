@@ -1,13 +1,12 @@
 /*----------------------------------- sélecteur universel du site -----------------------------*/
-*, *:before, *:after {
+* {
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
-
 html, body {
-  font-family: $body-font-family;
-  background-color: $colour-body;
-  max-width: 1440px;
-  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  margin:auto;
   padding: 0;
 }
-
