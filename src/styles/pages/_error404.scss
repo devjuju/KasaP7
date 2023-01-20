@@ -84,3 +84,49 @@
         }
     }
 }
+
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 425px){
+    /*------------------------------------------- Page error 404 ----------------------------------------*/
+    .section-error404 {
+        margin-top: 245px;
+        padding-left: 53px;
+        padding-right: 53px; 
+        text-align: center;
+        margin-bottom: 268px;
+        & article{
+            margin-bottom: 164px;
+            & h1{
+                font-family: $body-font-family;
+                font-style: normal;
+                font-weight: $font-bold;
+                font-size: 110px;
+                line-height: 142.6%;
+                color: $colour-theme;
+                margin: auto 25px;
+            }
+            & span{
+                font-family: $body-font-family;
+                font-style: normal;
+                font-weight: $font-medium;
+                font-size: 21px;
+                line-height: 142.6%;
+                color: $colour-theme;
+            }
+        }
+       
+        .link-404 {
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 17px;
+            line-height: 142.6%;
+            color: $colour-theme;
+            text-decoration:underline;
+            &:hover{
+                color: $colour-footer;
+            }
+        }
+    }
+}

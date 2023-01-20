@@ -1,13 +1,12 @@
 import React from "react";
 
-function Banner({image, texte}) {
+function BannerAbout({image}) {
     return(
-        <section className="banner">
+        <section className="banner-about">
             <img className="banner-img" src={image} alt="Bannière"/>
             <div className="banner-background"></div>
-            <h1 className="banner-txt">{texte}</h1>
         </section>
     );
 }
 
-export default Banner;
+export default BannerAbout;

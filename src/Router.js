@@ -12,7 +12,6 @@ function Routing() {
       <div className="App">
          <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/page-erreur" element={<Errorpage />} />
             <Route path="/logement/:id" element={<Rental />} />
             <Route path="/a-propos" element={<About />} />
             <Route path="*" element={<Error404 />} />

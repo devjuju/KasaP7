@@ -12,7 +12,6 @@ function Header() {
             <nav>
                 <NavLink to="/" className="nav-link">Accueil</NavLink>
                 <NavLink to="/a-propos" className="nav-link">À propos</NavLink>
-                <NavLink to="/page-erreur" className="nav-link">Error404</NavLink>
             </nav>
         </header>
     );

@@ -1,0 +1,122 @@
+/*------------------------------------------- Banner ----------------------------------------*/
+.banner-home{
+    margin:auto;
+    margin-left: 100px;
+    margin-right: 100px; 
+    border-radius: 25px;
+    height: 225px;
+    margin-bottom: 35px;
+    position: relative;
+    & img{
+        border-radius: 25px;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+    & div{
+        background-color: $colour-footer;
+        border-radius: 25px;
+        height: 100%;
+        left: 0;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    & h1{
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 48px;
+        color: $colour-body;
+        line-height: 142.6%;
+        left: 25%;
+        right: 20%;
+        top: 38%;
+        bottom: 69.04%;
+        position: absolute;
+    }
+}
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px){
+    /*------------------------------------------- Banner ----------------------------------------*/
+    .banner-home{
+        margin-left: 53px;
+        margin-right: 53px; 
+        border-radius: 25px;
+        height: 119px;
+        margin-bottom: 35px;
+        position: relative;
+        & img{
+            border-radius: 25px;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+        & div{
+            background-color: $colour-footer;
+            border-radius: 25px;
+            height: 100%;
+            left: 0;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        & h1{
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 25px;
+            color: $colour-body;
+            left: 20%;
+            right: 9%;
+            top: 38%;
+            bottom: 69.04%;
+            position: absolute;
+        }
+    }
+}
+  
+
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
+@media screen and (max-width: 425px){
+    /*------------------------------------------- Banner ----------------------------------------*/
+    .banner-home{
+        margin-left: 22px;
+        margin-right: 22px; 
+        border-radius: 12px;
+        height: 126px;
+        margin-bottom: 2px;
+        position: relative;
+        & img{
+            border-radius: 12px;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+        & div{
+            background-color: $colour-footer;
+            border-radius: 12px;
+            height: 100%;
+            left: 0;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        & h1{
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 26px;
+            color: $colour-body;
+            left: 10%;
+            right: 26%;
+            top: 20%;
+            bottom: 69.04%;
+            position: absolute;
+        }
+    }
+}

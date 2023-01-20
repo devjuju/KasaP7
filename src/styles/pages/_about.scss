@@ -14,3 +14,13 @@
         padding-right: 111px; 
     }
 }
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 425px){
+    /*------------------------------------------- Page about ----------------------------------------*/
+    .dropdown-about {
+        margin:auto;
+        padding-left: 22px;
+        padding-right: 22px; 
+    }
+}

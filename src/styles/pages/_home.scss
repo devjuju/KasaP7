@@ -24,3 +24,17 @@
         padding: 28px 25px;
     }
 }
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 425px){
+    /*------------------------------------------- Page Home ----------------------------------------*/
+    .section-card{
+        margin-left: 0px;
+        margin-right: 0px; 
+        background-color: $colour-body;
+        border-radius: 13px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px 0px;       
+    }
+}

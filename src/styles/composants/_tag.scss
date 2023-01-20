@@ -38,4 +38,28 @@
         }
     }
 }
-  
+
+
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 425px){
+    /*------------------------------------------- Tags ----------------------------------------*/
+    .tags{
+         display: inline-block;  
+         text-align: center;
+         margin-bottom: 18px;
+         & span {
+             font-family: $body-font-family;
+             font-style: normal;
+             font-weight: $font-medium;
+             font-size: 12px;
+             line-height: 142.6%;
+             background-color: $colour-theme;
+             border-radius: 10px;
+             color: $colour-body;
+             margin-right: 10px;
+             min-width: 115px;
+             padding: 5px 13px;  
+        }
+    }
+}
+   
