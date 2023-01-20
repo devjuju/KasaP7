@@ -40,7 +40,7 @@
 }
 
 
-/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
 @media screen and (max-width: 425px){
     /*------------------------------------------- Tags ----------------------------------------*/
     .tags{
@@ -59,6 +59,30 @@
              margin-right: 10px;
              min-width: 115px;
              padding: 5px 13px;  
+        }
+    }
+}
+
+
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
+@media screen and (max-width: 375px){
+    /*------------------------------------------- Tags ----------------------------------------*/
+    .tags{
+        display: inline-block;  
+        text-align: center;
+        margin-bottom: 18px;
+        & span {
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 10px;
+            line-height: 142.6%;
+            background-color: $colour-theme;
+            border-radius: 5px;
+            color: $colour-body;
+            margin-right: 10px;
+            min-width: 84px;
+            padding: 5px 13px;  
         }
     }
 }

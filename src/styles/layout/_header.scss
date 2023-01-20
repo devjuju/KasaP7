@@ -27,7 +27,7 @@ header{
     } 
 }
   
-/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
 @media screen and (max-width: 425px){
     /*------------------------------------------- Header ------------------------------------------*/
     header{
@@ -42,4 +42,19 @@ header{
         }
     } 
 }
-  
+
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
+@media screen and (max-width: 375px){
+    /*------------------------------------------- Header ------------------------------------------*/
+    header{
+        align-items: center;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        margin-left: 20px;
+        margin-right: 20px; 
+        & img{
+            height: 47px;
+        }
+    } 
+}

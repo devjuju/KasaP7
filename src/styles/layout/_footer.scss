@@ -61,7 +61,7 @@ footer {
 }
 
 
-/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
 @media screen and (max-width: 425px){
     /*------------------------------------------- Footer ----------------------------------------*/
         footer {
@@ -91,5 +91,37 @@ footer {
                 }
             }
         }  
-    }
+}
+
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
+@media screen and (max-width: 375px){
+    /*------------------------------------------- Footer ----------------------------------------*/
+        footer {
+            background-color: $colour-footer;
+            height: 200px;
+            width: 100%;
+            margin-top: 63px;
+            position: relative;
+            .content{
+                display: flex;
+                flex-direction: column;
+                height: 150px;
+                padding-top: 62px;
+                text-align:center;
+                & img{
+                    margin: auto;
+                    width: 123px;
+                }
+                & p{
+                    font-family: $body-font-family;
+                    font-style: normal;
+                    font-weight: $font-medium;
+                    font-size: 12px;
+                    line-height: 142.6%;
+                    text-align: center;
+                    color: $colour-body;
+                }
+            }
+        }  
+}
       

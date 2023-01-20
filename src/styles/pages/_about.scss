@@ -15,12 +15,22 @@
     }
 }
 
-/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
 @media screen and (max-width: 425px){
     /*------------------------------------------- Page about ----------------------------------------*/
     .dropdown-about {
         margin:auto;
         padding-left: 22px;
         padding-right: 22px; 
+    }
+}
+
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
+@media screen and (max-width: 375px){
+    /*------------------------------------------- Page about ----------------------------------------*/
+    .dropdown-about {
+        margin:auto;
+        padding-left: 20px;
+        padding-right: 20px; 
     }
 }

@@ -11,6 +11,7 @@ nav {
     line-height: 142.6%;
     color: $colour-theme;
     margin: auto 25px;
+    text-transform: uppercase;
     text-decoration: none;
     &:hover{
       color: $colour-footer;
@@ -33,6 +34,7 @@ nav {
       line-height: 142.6%;
       color: $colour-theme;
       margin: auto 25px;
+      text-transform: uppercase;
       text-decoration: none;
       &:hover{
         color: $colour-footer;
@@ -41,7 +43,7 @@ nav {
   }
 }
 
-/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
 @media screen and (max-width: 425px){
   /*----------------------------------- navigation ----------------------------------------------*/
   nav {
@@ -56,6 +58,31 @@ nav {
       line-height: 142.6%;
       color: $colour-theme;
       margin: auto 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover{
+        color: $colour-footer;
+      } 
+    }
+  }
+}
+
+/*-------------------------------- Responsive - layout Mobile L 375px --------------------------*/
+@media screen and (max-width: 375px){
+  /*----------------------------------- navigation ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    .nav-link{ 
+      font-family: $body-font-family;
+      font-style: normal;
+      font-weight: $font-medium;
+      font-size: 12px;
+      line-height: 142.6%;
+      color: $colour-theme;
+      margin: auto 10px;
+      text-transform: uppercase;
       text-decoration: none;
       &:hover{
         color: $colour-footer;
