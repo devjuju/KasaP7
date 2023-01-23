@@ -67,7 +67,7 @@ nav {
   }
 }
 
-/*-------------------------------- Responsive - layout Mobile L 375px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
 @media screen and (max-width: 375px){
   /*----------------------------------- navigation ----------------------------------------------*/
   nav {
@@ -79,6 +79,30 @@ nav {
       font-style: normal;
       font-weight: $font-medium;
       font-size: 12px;
+      line-height: 142.6%;
+      color: $colour-theme;
+      margin: auto 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover{
+        color: $colour-footer;
+      } 
+    }
+  }
+}
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+  /*----------------------------------- navigation ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    .nav-link{ 
+      font-family: $body-font-family;
+      font-style: normal;
+      font-weight: $font-medium;
+      font-size: 10px;
       line-height: 142.6%;
       color: $colour-theme;
       margin: auto 10px;

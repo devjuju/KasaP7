@@ -34,3 +34,13 @@
         padding-right: 20px; 
     }
 }
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Page about ----------------------------------------*/
+    .dropdown-about {
+        margin-bottom: 181px;
+        padding-left: 18px;
+        padding-right: 18px; 
+    }
+}

@@ -121,11 +121,11 @@
     }
 }
 
-
 /*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
 @media screen and (max-width: 375px){
     /*------------------------------------------- Banner home ----------------------------------------*/
     .banner-home{
+        margin-top: 16px;
         margin-left: 20px;
         margin-right: 20px; 
         border-radius: 10px;
@@ -153,6 +153,48 @@
             font-style: normal;
             font-weight: $font-medium;
             font-size: 24px;
+            color: $colour-body;
+            left: 10%;
+            right: 23%;
+            top: 20%;
+            bottom: 69.04%;
+            position: absolute;
+        }
+    }
+}
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Banner home ----------------------------------------*/
+    .banner-home{
+        margin-top: 14px;
+        margin-left: 16px;
+        margin-right: 16px; 
+        border-radius: 9px;
+        height: 96px;
+        margin-bottom: 2px;
+        position: relative;
+        & img{
+            border-radius: 9px;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+        & div{
+            background-color: $colour-footer;
+            border-radius: 9px;
+            height: 100%;
+            left: 0;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        & h1{
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 21px;
             color: $colour-body;
             left: 10%;
             right: 23%;

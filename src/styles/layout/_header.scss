@@ -2,8 +2,7 @@
 header{
     align-items: center;
     display: flex;
-    margin-top: 41px;
-    margin-bottom: 19px;  
+    margin-top: 41px; 
     margin-left: 100px;
     margin-right: 100px; 
     & img{    
@@ -18,7 +17,6 @@ header{
         align-items: center;
         display: flex;
         margin-top: 21px;
-        margin-bottom: 20px;
         margin-left: 53px;
         margin-right: 53px; 
         & img{
@@ -34,7 +32,6 @@ header{
         align-items: center;
         display: flex;
         margin-top: 22px;
-        margin-bottom: 20px;
         margin-left: 22px;
         margin-right: 22px; 
         & img{
@@ -50,11 +47,25 @@ header{
         align-items: center;
         display: flex;
         margin-top: 20px;
-        margin-bottom: 16px;
         margin-left: 20px;
         margin-right: 20px; 
         & img{
             height: 47px;
+        }
+    } 
+}
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Header ------------------------------------------*/
+    header{
+        align-items: center;
+        display: flex;
+        margin-top: 17px;
+        margin-left: 16px;
+        margin-right: 16px; 
+        & img{
+            height: 40px;
         }
     } 
 }

@@ -87,3 +87,25 @@
     }
 }
    
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Tags ----------------------------------------*/
+    .tags{
+        display: inline-block;  
+        text-align: center;
+        margin-bottom: 18px;
+        & span {
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 9px;
+            line-height: 142.6%;
+            background-color: $colour-theme;
+            border-radius: 5px;
+            color: $colour-body;
+            margin-right: 10px;
+            min-width: 84px;
+            padding: 5px 8px;  
+        }
+    }
+}

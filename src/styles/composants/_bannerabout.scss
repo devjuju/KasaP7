@@ -114,3 +114,33 @@
         }
     }
 }
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Banner ----------------------------------------*/
+    .banner-about{
+        margin-top: 15px;
+        margin-left: 16px;
+        margin-right: 16px; 
+        border-radius: 9px;
+        height: 191px;
+        margin-bottom: 16px;
+        position: relative;
+        & img{
+            border-radius: 9px;
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+        & div{
+            background-color: $colour-footer;
+            border-radius: 9px;
+            height: 100%;
+            left: 0;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+    }
+}

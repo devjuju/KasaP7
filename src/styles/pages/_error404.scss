@@ -175,3 +175,48 @@
         }
     }
 }
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Page error 404 ----------------------------------------*/
+    .section-error404 {
+        margin-top: 181px;
+        padding-left: 18px;
+        padding-right: 18px; 
+        text-align: center;
+        margin-bottom: 202px;
+        & article{
+            margin-bottom: 122px;
+            & h1{
+                font-family: $body-font-family;
+                font-style: normal;
+                font-weight: $font-bold;
+                font-size: 81px;
+                line-height: 142.6%;
+                color: $colour-theme;
+                margin: auto 25px;
+            }
+            & span{
+                font-family: $body-font-family;
+                font-style: normal;
+                font-weight: $font-medium;
+                font-size: 16px;
+                line-height: 142.6%;
+                color: $colour-theme;
+            }
+        }
+       
+        .link-404 {
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: $font-medium;
+            font-size: 12px;
+            line-height: 142.6%;
+            color: $colour-theme;
+            text-decoration:underline;
+            &:hover{
+                color: $colour-footer;
+            }
+        }
+    }
+}

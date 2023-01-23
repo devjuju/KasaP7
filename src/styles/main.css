@@ -204,6 +204,7 @@ html, body {
 @media screen and (max-width: 375px) {
   /*------------------------------------------- Banner home ----------------------------------------*/
   .banner-home {
+    margin-top: 16px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
@@ -233,6 +234,48 @@ html, body {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    color: white;
+    left: 10%;
+    right: 23%;
+    top: 20%;
+    bottom: 69.04%;
+    position: absolute;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Banner home ----------------------------------------*/
+  .banner-home {
+    margin-top: 14px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 9px;
+    height: 96px;
+    margin-bottom: 2px;
+    position: relative;
+  }
+  .banner-home img {
+    border-radius: 9px;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .banner-home div {
+    background-color: black;
+    border-radius: 9px;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .banner-home h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
     color: white;
     left: 10%;
     right: 23%;
@@ -350,6 +393,36 @@ html, body {
   .banner-about div {
     background-color: black;
     border-radius: 12px;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Banner ----------------------------------------*/
+  .banner-about {
+    margin-top: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 9px;
+    height: 191px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .banner-about img {
+    border-radius: 9px;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .banner-about div {
+    background-color: black;
+    border-radius: 9px;
     height: 100%;
     left: 0;
     opacity: 0.3;
@@ -516,6 +589,45 @@ html, body {
     position: absolute;
   }
 }
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Cards ----------------------------------------*/
+  .card {
+    border-radius: 8px;
+    height: 219px;
+    width: 287px;
+    position: relative;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: 1;
+    mix-blend-mode: darken;
+  }
+  .card div {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .card h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 142.6%;
+    bottom: 18px;
+    color: white;
+    left: 18px;
+    position: absolute;
+  }
+}
 /*------------------------------------------- Carrousel ----------------------------------------*/
 .carrousel {
   display: block;
@@ -655,6 +767,51 @@ html, body {
     position: relative;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 45px;
+  }
+  .carrousel .fleche {
+    position: absolute;
+    width: 11px;
+    z-index: 1;
+  }
+  .carrousel .fleche :hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+  .carrousel .fleche-gauche {
+    margin-left: 6px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+  }
+  .carrousel .fleche-droite {
+    margin-right: 6px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carrousel .carrousel-img {
+    border-radius: 10px;
+    height: 255px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: none;
+    width: 100%;
+  }
+  .carrousel .carrousel-img.actif {
+    display: block;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Carrousel ----------------------------------------*/
+  .carrousel {
+    display: block;
+    height: 219px;
+    position: relative;
+    margin-top: 22px;
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 45px;
   }
   .carrousel .fleche {
@@ -909,6 +1066,61 @@ html, body {
     padding: 25px 10px 10px 10px;
   }
 }
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  .dropdown {
+    border-radius: 5px;
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  .dropdown .header-dropdown {
+    align-items: center;
+    background-color: #FF6060;
+    border-radius: 5px;
+    display: inline-flex;
+    height: 25%;
+    min-height: 25px;
+    width: 100%;
+  }
+  .dropdown .header-dropdown .titre-dropdown {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 50%;
+    color: white;
+    padding-top: 8px;
+    height: 24px;
+    margin: 5px 10px;
+  }
+  .dropdown .header-dropdown .fleche-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+  }
+  .dropdown .header-dropdown .fleche-dropdown.true {
+    justify-content: start;
+    transform: rotate(-180deg);
+  }
+  .dropdown .description-dropdown {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 142.6%;
+    background-color: #F6F6F6;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #FF6060;
+    height: 75%;
+    margin-top: -10px;
+    min-height: 100px;
+    padding: 25px 10px 10px 10px;
+  }
+}
 /*------------------------------------------- Tags ----------------------------------------*/
 .tags {
   display: inline-block;
@@ -993,12 +1205,33 @@ html, body {
     padding: 5px 13px;
   }
 }
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Tags ----------------------------------------*/
+  .tags {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .tags span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 142.6%;
+    background-color: #FF6060;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    min-width: 84px;
+    padding: 5px 8px;
+  }
+}
 /*------------------------------------------- Header ------------------------------------------*/
 header {
   align-items: center;
   display: flex;
   margin-top: 41px;
-  margin-bottom: 19px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -1013,7 +1246,6 @@ header img {
     align-items: center;
     display: flex;
     margin-top: 21px;
-    margin-bottom: 20px;
     margin-left: 53px;
     margin-right: 53px;
   }
@@ -1028,7 +1260,6 @@ header img {
     align-items: center;
     display: flex;
     margin-top: 22px;
-    margin-bottom: 20px;
     margin-left: 22px;
     margin-right: 22px;
   }
@@ -1043,12 +1274,25 @@ header img {
     align-items: center;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 16px;
     margin-left: 20px;
     margin-right: 20px;
   }
   header img {
     height: 47px;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Header ------------------------------------------*/
+  header {
+    align-items: center;
+    display: flex;
+    margin-top: 17px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  header img {
+    height: 40px;
   }
 }
 /*----------------------------------- navigation ----------------------------------------------*/
@@ -1118,7 +1362,7 @@ nav .nav-link:hover {
     color: black;
   }
 }
-/*-------------------------------- Responsive - layout Mobile L 375px --------------------------*/
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
 @media screen and (max-width: 375px) {
   /*----------------------------------- navigation ----------------------------------------------*/
   nav {
@@ -1141,19 +1385,40 @@ nav .nav-link:hover {
     color: black;
   }
 }
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*----------------------------------- navigation ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  nav .nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 142.6%;
+    color: #FF6060;
+    margin: auto 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  nav .nav-link:hover {
+    color: black;
+  }
+}
 /*------------------------------------------- Footer ----------------------------------------*/
 footer {
   background-color: black;
-  height: 200px;
   width: 100%;
-  margin-top: 35px;
   position: relative;
 }
 footer .content {
   display: flex;
   flex-direction: column;
-  height: 150px;
   padding-top: 63px;
+  padding-bottom: 63px;
   text-align: center;
 }
 footer .content img {
@@ -1175,16 +1440,14 @@ footer .content p {
   /*------------------------------------------- Footer ----------------------------------------*/
   footer {
     background-color: black;
-    height: 200px;
     width: 100%;
-    margin-top: 35px;
     position: relative;
   }
   footer .content {
     display: flex;
     flex-direction: column;
-    height: 150px;
     padding-top: 63px;
+    padding-bottom: 63px;
     text-align: center;
   }
   footer .content img {
@@ -1206,16 +1469,14 @@ footer .content p {
   /*------------------------------------------- Footer ----------------------------------------*/
   footer {
     background-color: black;
-    height: 200px;
     width: 100%;
-    margin-top: 35px;
     position: relative;
   }
   footer .content {
     display: flex;
     flex-direction: column;
-    height: 150px;
     padding-top: 70px;
+    padding-bottom: 70px;
     text-align: center;
   }
   footer .content img {
@@ -1237,16 +1498,14 @@ footer .content p {
   /*------------------------------------------- Footer ----------------------------------------*/
   footer {
     background-color: black;
-    height: 200px;
     width: 100%;
-    margin-top: 63px;
     position: relative;
   }
   footer .content {
     display: flex;
     flex-direction: column;
-    height: 150px;
     padding-top: 62px;
+    padding-bottom: 62px;
     text-align: center;
   }
   footer .content img {
@@ -1261,6 +1520,36 @@ footer .content p {
     line-height: 142.6%;
     text-align: center;
     color: white;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Footer ----------------------------------------*/
+  footer {
+    background-color: black;
+    width: 100%;
+    position: relative;
+  }
+  footer .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    text-align: center;
+  }
+  footer .content img {
+    margin: auto;
+    width: 107px;
+  }
+  footer .content p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 142.6%;
+    text-align: center;
+    color: white;
+    margin-top: 27px;
   }
 }
 /*------------------------------------------- Page Home ----------------------------------------*/
@@ -1302,6 +1591,35 @@ footer .content p {
     gap: 9px 0px;
   }
 }
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 375px) {
+  /*------------------------------------------- Page Home ----------------------------------------*/
+  .section-card {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px 0px;
+  }
+}
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Page Home ----------------------------------------*/
+  .section-card {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 0;
+    background-color: white;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px 0px;
+  }
+}
 /*------------------------------------------- Page about ----------------------------------------*/
 .dropdown-about {
   margin: auto;
@@ -1334,6 +1652,15 @@ footer .content p {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Page about ----------------------------------------*/
+  .dropdown-about {
+    margin-bottom: 181px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 /*------------------------------------------- Page fiche du logement ----------------------------------------*/
@@ -1651,6 +1978,88 @@ footer .content p {
     height: 100%;
   }
 }
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Page fiche du logement ----------------------------------------*/
+  .logements-propietaire {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .logements-propietaire .information-logements {
+    flex-direction: column;
+    flex: 1;
+  }
+  .logements-propietaire .information-logements h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 142.6%;
+    color: #FF6060;
+  }
+  .logements-propietaire .information-logements p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 13px;
+    line-height: 142.6%;
+    color: #FF6060;
+  }
+  .logements-propietaire .information-propietaire {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 13px;
+  }
+  .logements-propietaire .information-propietaire span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 142.6%;
+    color: #FF6060;
+    margin-right: 10px;
+    text-align: right;
+    width: 50px;
+  }
+  .logements-propietaire .information-propietaire img {
+    border-radius: 50%;
+    height: 27px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 27px;
+  }
+  .logements-propietaire .note {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -27px;
+  }
+  .logements-propietaire .note .etoile {
+    height: 13px;
+    width: 13px;
+  }
+  .description-equipements {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0 41px;
+    line-height: 22.5px;
+    list-style: none;
+    margin-top: 16px;
+    margin-bottom: 77px;
+    width: 100%;
+  }
+  .description-equipements > .dropdown {
+    width: 100%;
+    height: 100%;
+  }
+}
 /*------------------------------------------- Page error 404 ----------------------------------------*/
 .section-error404 {
   margin: auto;
@@ -1813,6 +2222,49 @@ footer .content p {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    line-height: 142.6%;
+    color: #FF6060;
+    text-decoration: underline;
+  }
+  .section-error404 .link-404:hover {
+    color: black;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*------------------------------------------- Page error 404 ----------------------------------------*/
+  .section-error404 {
+    margin-top: 181px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+    margin-bottom: 202px;
+  }
+  .section-error404 article {
+    margin-bottom: 122px;
+  }
+  .section-error404 article h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 142.6%;
+    color: #FF6060;
+    margin: auto 25px;
+  }
+  .section-error404 article span {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 142.6%;
+    color: #FF6060;
+  }
+  .section-error404 .link-404 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
     line-height: 142.6%;
     color: #FF6060;
     text-decoration: underline;

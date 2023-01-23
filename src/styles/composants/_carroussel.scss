@@ -170,3 +170,49 @@
         }
     } 
 }
+
+
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px){
+    /*------------------------------------------- Carrousel ----------------------------------------*/
+    .carrousel {
+        display: block;
+        height: 219px;
+        position: relative;
+        margin-top: 22px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 45px;
+        .fleche {
+            position: absolute;
+            width: 11px;
+            z-index: 1;
+            & :hover {
+                cursor: pointer;
+                filter: drop-shadow(2px 4px 6px black);
+            }
+        }
+        .fleche-gauche {
+            margin-left: 6px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) rotate(180deg);
+        }
+        .fleche-droite {
+            margin-right: 6px;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .carrousel-img {
+            border-radius: 10px;
+            height: 255px;
+            object-fit: cover;
+            display: none;
+            width: 100%;
+        }
+        .carrousel-img.actif {
+            display: block;
+        }
+    } 
+}
