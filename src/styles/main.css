@@ -374,6 +374,7 @@ html, body {
 @media screen and (max-width: 375px) {
   /*------------------------------------------- Banner ----------------------------------------*/
   .banner-about {
+    margin-top: 17px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
@@ -764,6 +765,7 @@ html, body {
     display: block;
     height: 222px;
     position: relative;
+    margin-top: 28px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 45px;
@@ -1496,6 +1498,7 @@ footer .content p {
 @media screen and (max-width: 375px) {
   /*------------------------------------------- Footer ----------------------------------------*/
   footer {
+    margin-top: 236px;
     background-color: black;
     width: 100%;
     position: relative;
@@ -1519,12 +1522,14 @@ footer .content p {
     line-height: 142.6%;
     text-align: center;
     color: white;
+    margin-top: 27px;
   }
 }
 /*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
 @media screen and (max-width: 320px) {
   /*------------------------------------------- Footer ----------------------------------------*/
   footer {
+    margin-top: 202px;
     background-color: black;
     width: 100%;
     position: relative;
@@ -1548,7 +1553,7 @@ footer .content p {
     line-height: 142.6%;
     text-align: center;
     color: white;
-    margin-top: 27px;
+    margin-top: 26px;
   }
 }
 /*------------------------------------------- Page Home ----------------------------------------*/
@@ -1660,7 +1665,7 @@ footer .content p {
 @media screen and (max-width: 320px) {
   /*------------------------------------------- Page about ----------------------------------------*/
   .dropdown-about {
-    margin-bottom: 181px;
+    margin: auto;
     padding-left: 18px;
     padding-right: 18px;
   }
@@ -2197,7 +2202,6 @@ footer .content p {
     padding-left: 53px;
     padding-right: 53px;
     text-align: center;
-    margin-bottom: 236px;
   }
   .section-error404 article {
     margin-bottom: 145px;

@@ -91,6 +91,7 @@ footer {
 @media screen and (max-width: 375px){
     /*------------------------------------------- Footer ----------------------------------------*/
         footer {
+            margin-top: 236px;
             background-color: $colour-footer;
             width: 100%;
             position: relative;
@@ -112,6 +113,7 @@ footer {
                     line-height: 142.6%;
                     text-align: center;
                     color: $colour-body;
+                    margin-top: 27px;
                 }
             }
         }  
@@ -121,6 +123,7 @@ footer {
 @media screen and (max-width: 320px){
     /*------------------------------------------- Footer ----------------------------------------*/
         footer {
+            margin-top: 202px;
             background-color: $colour-footer;
             width: 100%;
             position: relative;
@@ -142,7 +145,7 @@ footer {
                     line-height: 142.6%;
                     text-align: center;
                     color: $colour-body;
-                    margin-top: 27px;
+                    margin-top: 26px;
                 }
             }
         }  
