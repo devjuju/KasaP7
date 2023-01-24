@@ -1,116 +1,171 @@
-/*----------------------------------- navigation ----------------------------------------------*/
+/*----------------------------------- nav ----------------------------------------------*/
 nav {
   justify-content: flex-end;
   display: flex;
   width: 100%;
-  .nav-link{ 
-    font-family: $body-font-family;
-    font-style: normal;
-    font-weight: $font-medium;
-    font-size: 24px;
-    line-height: 142.6%;
-    color: $colour-theme;
-    margin: auto 25px;
-    text-transform: uppercase;
-    text-decoration: none;
-    &:hover{
-      color: $colour-footer;
-    } 
+
+  ul {
+    li {
+      display: inline-block;
+      font-family: $body-font-family;
+      font-style: normal;
+      font-weight: $font-medium;
+      font-size: 24px;
+      line-height: 142.6%;
+      color: $colour-theme;
+      text-transform: uppercase;
+
+      & a {
+        color: $colour-theme;
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+
+        &:hover {
+          color: $colour-footer;
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
-@media screen and (max-width: 768px){
-  /*----------------------------------- navigation ----------------------------------------------*/
+@media screen and (max-width: 768px) {
+  /*----------------------------------- nav ----------------------------------------------*/
   nav {
     justify-content: flex-end;
     display: flex;
     width: 100%;
-    .nav-link{ 
-      font-family: $body-font-family;
-      font-style: normal;
-      font-weight: $font-medium;
-      font-size: 13px;
-      line-height: 142.6%;
-      color: $colour-theme;
-      margin: auto 25px;
-      text-transform: uppercase;
-      text-decoration: none;
-      &:hover{
-        color: $colour-footer;
-      } 
+
+    ul {
+      li {
+        display: inline-block;
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 13px;
+        line-height: 142.6%;
+        color: $colour-theme;
+        text-transform: uppercase;
+
+        & a {
+          color: $colour-theme;
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+
+          &:hover {
+            color: $colour-footer;
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }
 
 /*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
-@media screen and (max-width: 425px){
-  /*----------------------------------- navigation ----------------------------------------------*/
+@media screen and (max-width: 425px) {
+  /*----------------------------------- nav ----------------------------------------------*/
   nav {
     justify-content: flex-end;
     display: flex;
     width: 100%;
-    .nav-link{ 
-      font-family: $body-font-family;
-      font-style: normal;
-      font-weight: $font-medium;
-      font-size: 13px;
-      line-height: 142.6%;
-      color: $colour-theme;
-      margin: auto 10px;
-      text-transform: uppercase;
-      text-decoration: none;
-      &:hover{
-        color: $colour-footer;
-      } 
+
+    ul {
+      li {
+        display: inline-block;
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 13px;
+        line-height: 142.6%;
+        color: $colour-theme;
+        text-transform: uppercase;
+
+        & a {
+          color: $colour-theme;
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+
+          &:hover {
+            color: $colour-footer;
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }
 
 /*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
-@media screen and (max-width: 375px){
-  /*----------------------------------- navigation ----------------------------------------------*/
+@media screen and (max-width: 375px) {
+  /*----------------------------------- nav ----------------------------------------------*/
   nav {
     justify-content: flex-end;
     display: flex;
     width: 100%;
-    .nav-link{ 
-      font-family: $body-font-family;
-      font-style: normal;
-      font-weight: $font-medium;
-      font-size: 12px;
-      line-height: 142.6%;
-      color: $colour-theme;
-      margin: auto 10px;
-      text-transform: uppercase;
-      text-decoration: none;
-      &:hover{
-        color: $colour-footer;
-      } 
+
+    ul {
+      li {
+        display: inline-block;
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 12px;
+        line-height: 142.6%;
+        color: $colour-theme;
+        text-transform: uppercase;
+
+        & a {
+          color: $colour-theme;
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+
+          &:hover {
+            color: $colour-footer;
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }
 
 /*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
-@media screen and (max-width: 320px){
-  /*----------------------------------- navigation ----------------------------------------------*/
+@media screen and (max-width: 320px) {
+  /*----------------------------------- nav ----------------------------------------------*/
   nav {
     justify-content: flex-end;
     display: flex;
     width: 100%;
-    .nav-link{ 
-      font-family: $body-font-family;
-      font-style: normal;
-      font-weight: $font-medium;
-      font-size: 10px;
-      line-height: 142.6%;
-      color: $colour-theme;
-      margin: auto 10px;
-      text-transform: uppercase;
-      text-decoration: none;
-      &:hover{
-        color: $colour-footer;
-      } 
+
+    ul {
+      li {
+        display: inline-block;
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: $font-medium;
+        font-size: 10px;
+        line-height: 142.6%;
+        color: $colour-theme;
+        text-transform: uppercase;
+
+        & a {
+          color: $colour-theme;
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+
+          &:hover {
+            color: $colour-footer;
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }
