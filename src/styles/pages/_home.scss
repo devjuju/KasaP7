@@ -44,12 +44,15 @@
     /*------------------------------------------- Page Home ----------------------------------------*/
     .section-card{
         margin-left: 0px;
-        margin-right: 0px; 
+        margin-right: 0px;
+        padding-top: 22px; 
+        padding-left: 20px;
+        padding-right: 20px;
         background-color: $colour-body;
         border-radius: 13px;
         display: flex;
         flex-direction: column;
-        gap: 9px 0px;       
+        gap: 22px 0px;       
     }
 }
 
@@ -60,13 +63,13 @@
     .section-card{
         margin-left: 0px;
         margin-right: 0px;
-        padding-top: 16px;
-        padding-left: 16px; 
-        padding-right: 0;
+        padding-top: 19px;
+        padding-left: 18px;
+        padding-right: 18px;
         background-color: $colour-body;
         border-radius: 13px;
         display: flex;
         flex-direction: column;
-        gap: 18px 0px;       
+        gap: 19px 0px;        
     }
 }
