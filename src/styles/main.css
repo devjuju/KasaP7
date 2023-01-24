@@ -122,7 +122,7 @@ html, body {
 @media screen and (max-width: 768px) {
   /*------------------------------------------- Banner ----------------------------------------*/
   .banner-home {
-    margin-top: 14px;
+    margin-top: 37px;
     margin-left: 53px;
     margin-right: 53px;
     border-radius: 25px;
@@ -318,6 +318,7 @@ html, body {
 @media screen and (max-width: 768px) {
   /*------------------------------------------- Banner ----------------------------------------*/
   .banner-about {
+    margin-top: 37px;
     margin-left: 53px;
     margin-right: 53px;
     border-radius: 25px;
@@ -347,6 +348,7 @@ html, body {
 @media screen and (max-width: 425px) {
   /*------------------------------------------- Banner ----------------------------------------*/
   .banner-about {
+    margin-top: 20px;
     margin-left: 22px;
     margin-right: 22px;
     border-radius: 12px;
@@ -435,8 +437,8 @@ html, body {
 /*------------------------------------------- Cards ----------------------------------------*/
 .card {
   border-radius: 10px;
-  min-height: 340px;
-  min-width: 340px;
+  height: 340px;
+  width: 100%;
   position: relative;
 }
 .card img {
@@ -474,15 +476,15 @@ html, body {
 @media screen and (max-width: 768px) {
   /*------------------------------------------- Cards ----------------------------------------*/
   .card {
-    border-radius: 6px;
-    min-height: 181px;
-    min-width: 181px;
+    border-radius: 10px;
+    height: 340px;
+    width: 100%;
     position: relative;
   }
   .card img {
     width: 100%;
-    height: 10rem;
-    border-radius: 6px;
+    height: 20rem;
+    border-radius: 10px;
     -o-object-fit: cover;
        object-fit: cover;
     z-index: 1;
@@ -490,8 +492,8 @@ html, body {
   }
   .card div {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    border-radius: 6px;
-    height: 10rem;
+    border-radius: 10px;
+    height: 320px;
     left: 0;
     position: absolute;
     top: 0;
@@ -501,7 +503,7 @@ html, body {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 18px;
     line-height: 142.6%;
     bottom: 40px;
     color: white;
@@ -679,6 +681,7 @@ html, body {
     display: block;
     height: 222px;
     position: relative;
+    margin-top: 10px;
     margin-left: 53px;
     margin-right: 53px;
     margin-bottom: 12px;
@@ -1299,126 +1302,10 @@ header img {
     height: 40px;
   }
 }
-/*----------------------------------- navigation ----------------------------------------------*/
-nav {
-  justify-content: flex-end;
-  display: flex;
-  width: 100%;
-}
-nav .nav-link {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 142.6%;
-  color: #FF6060;
-  margin: auto 25px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-nav .nav-link:hover {
-  color: black;
-}
-
-/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
-@media screen and (max-width: 768px) {
-  /*----------------------------------- navigation ----------------------------------------------*/
-  nav {
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-  }
-  nav .nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 142.6%;
-    color: #FF6060;
-    margin: auto 25px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  nav .nav-link:hover {
-    color: black;
-  }
-}
-/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
-@media screen and (max-width: 425px) {
-  /*----------------------------------- navigation ----------------------------------------------*/
-  nav {
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-  }
-  nav .nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 142.6%;
-    color: #FF6060;
-    margin: auto 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  nav .nav-link:hover {
-    color: black;
-  }
-}
-/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
-@media screen and (max-width: 375px) {
-  /*----------------------------------- navigation ----------------------------------------------*/
-  nav {
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-  }
-  nav .nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 142.6%;
-    color: #FF6060;
-    margin: auto 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  nav .nav-link:hover {
-    color: black;
-  }
-}
-/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
-@media screen and (max-width: 320px) {
-  /*----------------------------------- navigation ----------------------------------------------*/
-  nav {
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-  }
-  nav .nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 142.6%;
-    color: #FF6060;
-    margin: auto 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  nav .nav-link:hover {
-    color: black;
-  }
-}
 /*----------------------------------- nav ----------------------------------------------*/
 nav {
   justify-content: flex-end;
   display: flex;
-  width: 100%;
-}
-nav ul {
   width: 100%;
 }
 nav ul li {
@@ -1432,6 +1319,7 @@ nav ul li {
   text-transform: uppercase;
 }
 nav ul li a {
+  color: #FF6060;
   display: block;
   padding: 6px 12px;
   text-decoration: none;
@@ -1441,6 +1329,122 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
+@media screen and (max-width: 768px) {
+  /*----------------------------------- nav ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 142.6%;
+    color: #FF6060;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    color: #FF6060;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
+@media screen and (max-width: 425px) {
+  /*----------------------------------- nav ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 142.6%;
+    color: #FF6060;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    color: #FF6060;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
+@media screen and (max-width: 375px) {
+  /*----------------------------------- nav ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 142.6%;
+    color: #FF6060;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    color: #FF6060;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
+/*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
+@media screen and (max-width: 320px) {
+  /*----------------------------------- nav ----------------------------------------------*/
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 142.6%;
+    color: #FF6060;
+    text-transform: uppercase;
+  }
+  nav ul li a {
+    color: #FF6060;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
 /*------------------------------------------- Footer ----------------------------------------*/
 footer {
   background-color: black;
@@ -1472,6 +1476,7 @@ footer .content p {
 @media screen and (max-width: 768px) {
   /*------------------------------------------- Footer ----------------------------------------*/
   footer {
+    margin-top: 268px;
     background-color: black;
     width: 100%;
     position: relative;
@@ -1495,6 +1500,7 @@ footer .content p {
     line-height: 142.6%;
     text-align: center;
     color: white;
+    margin-top: 29px;
   }
 }
 /*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
@@ -1525,6 +1531,7 @@ footer .content p {
     line-height: 142.6%;
     text-align: center;
     color: white;
+    margin-top: 36px;
   }
 }
 /*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
@@ -1598,7 +1605,6 @@ footer .content p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px 60px;
-  padding: 55px 50px;
 }
 
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
@@ -1607,12 +1613,14 @@ footer .content p {
   .section-card {
     margin-left: 53px;
     margin-right: 53px;
+    padding-top: 31px;
+    padding-left: 26px;
+    padding-right: 26px;
     background-color: #f6f6f6;
-    border-radius: 13px;
+    border-radius: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 14px 30px;
-    padding: 28px 25px;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 25px;
   }
 }
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
@@ -1847,6 +1855,8 @@ footer .content p {
     width: 15px;
   }
   .description-equipements {
+    padding-left: 53px;
+    padding-right: 53px;
     display: inline-flex;
     gap: 0 41px;
     line-height: 22.5px;

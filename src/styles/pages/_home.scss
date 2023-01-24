@@ -7,22 +7,25 @@
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 50px 60px; 
-    padding: 55px 50px;
+
 }
 
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
 @media screen and (max-width: 768px){
-   /*------------------------------------------- Page Home ----------------------------------------*/
-   .section-card{
-        margin-left: 53px;
-        margin-right: 53px; 
-        background-color: #f6f6f6;
-        border-radius: 13px;
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        gap: 14px 30px; 
-        padding: 28px 25px;
-    }
+  /*------------------------------------------- Page Home ----------------------------------------*/
+.section-card{
+    margin-left: 53px;
+    margin-right: 53px; 
+    padding-top: 31px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr ; 
+    gap: 25px 25px; 
+
+}
 }
 
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/

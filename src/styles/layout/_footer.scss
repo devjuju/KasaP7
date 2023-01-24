@@ -30,6 +30,7 @@ footer {
 @media screen and (max-width: 768px){
 /*------------------------------------------- Footer ----------------------------------------*/
     footer {
+        margin-top: 268px;
         background-color: $colour-footer;
         width: 100%;
         position: relative;
@@ -51,6 +52,7 @@ footer {
                 line-height: 142.6%;
                 text-align: center;
                 color: $colour-body;
+                margin-top: 29px;
             }
         }
     }  
@@ -83,6 +85,7 @@ footer {
                     line-height: 142.6%;
                     text-align: center;
                     color: $colour-body;
+                    margin-top: 36px;
                 }
             }
         }  
