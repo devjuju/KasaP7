@@ -111,7 +111,7 @@ html, body {
   font-size: 48px;
   color: white;
   line-height: 142.6%;
-  left: 25%;
+  left: 20%;
   right: 20%;
   top: 38%;
   bottom: 69.04%;
@@ -1448,7 +1448,7 @@ nav ul li a:hover {
 }
 /*------------------------------------------- Footer ----------------------------------------*/
 footer {
-  margin-top: 163px;
+  margin-top: 263px;
   background-color: black;
   width: 100%;
   position: relative;
