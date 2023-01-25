@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 // SOURCE : https://reactrouter.com/en/main/components/nav-link
 function Navigation() {
   // Ce style sera appliqué à un <NavLink> lorsque le
@@ -36,5 +36,4 @@ function Navigation() {
   );
 }
 
-  
-  export default Navigation;
+export default Navigation;

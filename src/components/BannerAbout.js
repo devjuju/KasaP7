@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function BannerAbout({image}) {
     return(
         <section className="banner-about">
-            <img className="banner-img" src={image} alt="Bannière"/>
-            <div className="banner-background"></div>
+            <img src={image} alt="Bannière"/>
+            <div></div>
         </section>
     );
 }

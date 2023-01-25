@@ -1,7 +1,7 @@
-import React from "react";
-import logoHeader from "../assets/Logo-red.png";
-import { NavLink } from "react-router-dom";
-import Navigation from "./Navigation";
+import React from 'react';
+import logoHeader from '../assets/Logo-red.png';
+import { NavLink } from 'react-router-dom';
+import Navigation from './Navigation';
 
 function Header() {
     return(

@@ -12,7 +12,7 @@
         height: 25%;
         min-height: 50px;
         width: 100%;
-        .titre-dropdown {
+        & span {
             font-family: $body-font-family;
             font-style: normal;
             font-weight: $font-medium;
@@ -42,7 +42,7 @@
           
         
       }
-      .description-dropdown {
+      & p {
         font-family: $body-font-family;
         font-style: normal;
         font-weight: $font-regular;
@@ -74,7 +74,7 @@
       height: 25%;
       min-height: 25px;
       width: 100%;
-      .titre-dropdown {
+      & span {
         font-family: $body-font-family;
         font-style: normal;
         font-weight: $font-medium;
@@ -98,7 +98,7 @@
         transform: rotate(-180deg);
       }
     }
-    .description-dropdown {
+    & p{
       font-family: $body-font-family;
       font-style: normal;
       font-weight: $font-regular;
@@ -130,7 +130,7 @@
       height: 25%;
       min-height: 25px;
       width: 100%;
-      .titre-dropdown {
+      & span {
         font-family: $body-font-family;
         font-style: normal;
         font-weight: $font-medium;
@@ -154,7 +154,7 @@
         transform: rotate(-180deg);
       }
     }
-    .description-dropdown {
+    & p {
       font-family: $body-font-family;
       font-style: normal;
       font-weight: $font-regular;
@@ -186,7 +186,7 @@
       height: 25%;
       min-height: 25px;
       width: 100%;
-      .titre-dropdown {
+      & span {
         font-family: $body-font-family;
         font-style: normal;
         font-weight: $font-medium;
@@ -210,7 +210,7 @@
         transform: rotate(-180deg);
       }
     }
-    .description-dropdown {
+    & p {
       font-family: $body-font-family;
       font-style: normal;
       font-weight: $font-regular;
@@ -242,7 +242,7 @@
       height: 25%;
       min-height: 25px;
       width: 100%;
-      .titre-dropdown {
+      & span {
         font-family: $body-font-family;
         font-style: normal;
         font-weight: $font-medium;
@@ -266,7 +266,7 @@
         transform: rotate(-180deg);
       }
     }
-    .description-dropdown {
+    & p {
       font-family: $body-font-family;
       font-style: normal;
       font-weight: $font-regular;

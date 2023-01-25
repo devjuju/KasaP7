@@ -1,16 +1,15 @@
-import React from "react";
+import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-import ListeLogements from "../assets/rentals.json";
-import Carrousel from "../components/Carroussel";
-import Tag from "../components/Tag";
-import Etoile from "../assets/RedStar.png";
-import EtoileVide from "../assets/EmptyStar.png";
-import Dropdown from "../components/Dropdown";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import ListeLogements from '../assets/rentals.json';
+import Carrousel from '../components/Carrousel';
+import Tag from '../components/Tag';
+import Etoile from '../assets/RedStar.png';
+import EtoileVide from '../assets/EmptyStar.png';
+import Dropdown from '../components/Dropdown';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function Rental() {
-    /* Récupère la bonne fiche */
     const id = useParams();
     const ficheLogement = ListeLogements.find(logement => logement.id === id.id);
 

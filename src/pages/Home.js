@@ -1,11 +1,11 @@
-import React from "react";
-import Banniere from "../components/BannerHome";
-import banniereAccueil from "../assets/BannerHome.png";
-import { NavLink } from "react-router-dom";
-import ListeLogements from "../assets/rentals.json";
-import Header from "../components/Header";
-import Card from "../components/Card";
-import Footer from "../components/Footer";
+import React from 'react';
+import Banniere from '../components/BannerHome';
+import banniereAccueil from '../assets/BannerHome.png';
+import { NavLink } from 'react-router-dom';
+import ListeLogements from '../assets/rentals.json';
+import Header from '../components/Header';
+import Card from '../components/Card';
+import Footer from '../components/Footer';
 
 function Home() {
     return(

@@ -1,6 +1,6 @@
-import React from "react";
-import Routing from "./Router";
-// Étape 2 : Ajoutez React Router
+import React from 'react';
+import Routing from './Router';
+
 function App() {
    return <Routing />;
 }
