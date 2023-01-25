@@ -7,7 +7,7 @@ function Header() {
     return(
         <header>
             <NavLink to="/">
-                <img className="logo-red" src={logoHeader} alt="Logo"/>
+                <img src={logoHeader} alt="Logo"/>
             </NavLink>
             <Navigation />
         </header>

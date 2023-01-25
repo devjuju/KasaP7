@@ -27,7 +27,7 @@ function Carrousel({images}) {
         <section className="section-carrousel">
             <div className="carrousel">
             {
-                nomberImg > 1 && <img className="fleche fleche-gauche" src={fleche} alt="Contenu précedént" onClick={imgPrevious}/>
+                nomberImg > 1 && <img className="arrow arrow-left" src={fleche} alt="Contenu précedént" onClick={imgPrevious}/>
             }
             {
                 images.map((image, index) => {
@@ -37,7 +37,7 @@ function Carrousel({images}) {
                 })
             }
             {
-                nomberImg > 1 && <img className="fleche fleche-droite" src={fleche} alt="Contenu suivant" onClick={imgNext}/>
+                nomberImg > 1 && <img className="arrow arrow-right" src={fleche} alt="Contenu suivant" onClick={imgNext}/>
             }
             </div>
         </section>

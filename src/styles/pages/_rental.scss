@@ -1,11 +1,11 @@
 /*------------------------------------------- Page fiche du logement ----------------------------------------*/
-.logements-propietaire {
+.rental-owner{
     display: -webkit-flex;
     display: flex;
     margin:auto;
     padding-left: 100px;
     padding-right: 100px; 
-    .information-logements{
+    & article{
         flex-direction: column;
         -webkit-flex: 1;
         -ms-flex: 1;
@@ -30,7 +30,7 @@
             color: $colour-theme; 
         }
     }
-    .information-propietaire {
+    .information-owner {
         align-items: center;
         display: flex;
         justify-content: flex-end;
@@ -54,7 +54,7 @@
             width: 64px;
         }   
     }
-    .note {
+    .rating {
         align-items: center;
         display: flex;
         justify-content: flex-end;
@@ -65,7 +65,7 @@
     }
 }
 
-.description-equipements {
+.dropdown-equipments {
     padding-left: 100px;
     padding-right: 100px;
     display: inline-flex;
@@ -84,13 +84,13 @@
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
 @media screen and (max-width: 768px){
     /*------------------------------------------- Page fiche du logement ----------------------------------------*/
-    .logements-propietaire {
+    .rental-owner{
         display: -webkit-flex;
         display: flex;
         margin:auto;
         padding-left: 53px;
         padding-right: 53px; 
-        .information-logements{
+        & article{
             flex-direction: column;
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -113,7 +113,7 @@
                 color: $colour-theme; 
             }
         }
-        .information-propietaire {
+        .information-owner {
             align-items: center;
             display: flex;
             justify-content: flex-end;
@@ -136,7 +136,7 @@
                 width: 34px;
             }   
         }
-        .note {
+        .rating {
             align-items: center;
             display: flex;
             justify-content: flex-end;
@@ -146,7 +146,7 @@
             }
         }
     }
-    .description-equipements {
+    .dropdown-equipments {
         padding-left: 53px;
         padding-right: 53px; 
         display: inline-flex;
@@ -165,14 +165,14 @@
 /*-------------------------------- Responsive - layout Mobile L 425px --------------------------*/
 @media screen and (max-width: 425px){
     /*------------------------------------------- Page fiche du logement ----------------------------------------*/
-    .logements-propietaire {
+    .rental-owner{
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
         margin:auto;
         padding-left: 22px;
         padding-right: 22px; 
-        .information-logements{
+        & article{
             flex-direction: column;
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -196,7 +196,7 @@
                 color: $colour-theme; 
             }
         }
-        .information-propietaire {
+        .information-owner {
             align-items: center;
             display: -webkit-flex;
             display: flex;
@@ -220,7 +220,7 @@
                 width: 37px;
             }   
         }
-        .note {
+        .rating {
             align-items: center;
             display: flex;
             justify-content: flex-start;
@@ -231,7 +231,7 @@
             }
         }
     }
-    .description-equipements {
+    .dropdown-equipments {
         padding-left: 22px;
         padding-right: 22px; 
         display: flex;
@@ -251,14 +251,14 @@
 /*-------------------------------- Responsive - layout Mobile M 375px --------------------------*/
 @media screen and (max-width: 375px){
     /*------------------------------------------- Page fiche du logement ----------------------------------------*/
-    .logements-propietaire {
+    .rental-owner {
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
         margin:auto;
         padding-left: 20px;
         padding-right: 20px; 
-        .information-logements{
+        & article{
             flex-direction: column;
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -282,7 +282,7 @@
                 color: $colour-theme; 
             }
         }
-        .information-propietaire {
+        .information-owner {
             align-items: center;
             display: -webkit-flex;
             display: flex;
@@ -306,7 +306,7 @@
                 width: 32px;
             }   
         }
-        .note {
+        .rating {
             align-items: center;
             display: flex;
             justify-content: flex-start;
@@ -317,7 +317,7 @@
             }
         }
     }
-    .description-equipements {
+    .dropdown-equipments {
         padding-left: 20px;
         padding-right: 20px; 
         display: flex;
@@ -337,14 +337,14 @@
 /*-------------------------------- Responsive - layout Mobile S 320px --------------------------*/
 @media screen and (max-width: 320px){
     /*------------------------------------------- Page fiche du logement ----------------------------------------*/
-    .logements-propietaire {
+    .rental-owner{
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
         margin:auto;
         padding-left: 18px;
         padding-right: 18px; 
-        .information-logements{
+        & article{
             flex-direction: column;
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -368,7 +368,7 @@
                 color: $colour-theme; 
             }
         }
-        .information-propietaire {
+        .information-owner {
             align-items: center;
             display: -webkit-flex;
             display: flex;
@@ -392,7 +392,7 @@
                 width: 27px;
             }   
         }
-        .note {
+        .rating {
             align-items: center;
             display: flex;
             justify-content: flex-start;
@@ -403,7 +403,7 @@
             }
         }
     }
-    .description-equipements {
+    .dropdown-equipments {
         padding-left: 20px;
         padding-right: 20px; 
         display: flex;
