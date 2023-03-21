@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import RentalSheet from './pages/RentalSheet';
-import Error404 from './pages/Error404';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import RentalSheet from '../pages/RentalSheet';
+import Error404 from '../pages/Error404';
 
 function Routing() {
    return (
