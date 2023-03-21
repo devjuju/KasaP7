@@ -6,8 +6,6 @@ import Tag from '../components/Tag';
 import Etoile from '../assets/RedStar.png';
 import EtoileVide from '../assets/EmptyStar.png';
 import Dropdown from '../components/Dropdown';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 function RentalSheet() {
     const id = useParams();
@@ -42,7 +40,6 @@ function RentalSheet() {
             {
                 rentalSheet ? (
                     <div className="Fiche">
-                        <Header />
                         <Carrousel images={rentalSheet?.pictures}/>
                         <section className="rental-owner">
                             <article>
@@ -66,7 +63,6 @@ function RentalSheet() {
                             <Dropdown titre="Description" description={rentalSheet?.description}/>
                             <Dropdown titre="Équipements" description={equipmentsRental}/>
                         </section>
-                        <Footer />
                     </div>
                 ) : <Navigate replace to="/404"/>
             }
