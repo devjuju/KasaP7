@@ -11,7 +11,6 @@ function Home() {
             <section className="section-card">
                 {ListeLogements.map((logement) => <NavLink key={logement.id} to={"/logement/"+logement.id+"/#"}><Card key={logement.id} id={logement.id} image={logement.cover} titre={logement.title} /></NavLink>)}
             </section>
-            <NavLink to="*" className="link-404">Voir la page d'erreur 404</NavLink>
         </div>
     );
 }
