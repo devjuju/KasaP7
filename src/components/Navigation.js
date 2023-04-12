@@ -17,7 +17,7 @@ function Navigation() {
               isActive ? activeStyle : undefined
             }
           >
-            accueil
+            Accueil
           </NavLink>
         </li>
         <li>
