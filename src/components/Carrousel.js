@@ -32,7 +32,18 @@ function Carrousel({images}) {
             {
                 images.map((image, index) => {
                     return(
-                        <img key={index} className={index === imgDisplay ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Logement"/>
+                        <div>
+                             <img key={index} className={index === imgDisplay ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Logement"/>
+                             {index === imgDisplay && <div className="image-number-overlay">
+                             <div className="number-container">
+                                {imgDisplay + 1}/{nomberImg}
+                            </div>
+
+                             </div>}
+                     
+
+                        </div>
+                       
                     )
                 })
             }

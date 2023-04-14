@@ -38,6 +38,16 @@
     .carrousel-img.actif {
         display: block;
     }
+    .number-container{
+        position: absolute;
+        bottom: 39px;
+        left: 50%;
+        text-align: center;
+        font-family: $body-font-family;
+        font-size: 24px;
+        font-weight: $font-medium;
+        color: $colour-body;
+    }
 }
 
 /*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
@@ -81,6 +91,9 @@
         }
         .carrousel-img.actif {
             display: block;
+        }
+        .number-container{
+            display: none;
         }
     } 
 }
@@ -127,6 +140,9 @@
         .carrousel-img.actif {
             display: block;
         }
+        .number-container{
+            display: none;
+        }
     } 
 }
 
@@ -171,6 +187,9 @@
         }
         .carrousel-img.actif {
             display: block;
+        }
+        .number-container{
+            display: none;
         }
     } 
 }
@@ -217,6 +236,9 @@
         }
         .carrousel-img.actif {
             display: block;
+        }
+        .number-container{
+            display: none;
         }
     } 
 }
