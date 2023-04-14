@@ -33,17 +33,13 @@ function Carrousel({images}) {
                 images.map((image, index) => {
                     return(
                         <div>
-                             <img key={index} className={index === imgDisplay ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Logement"/>
-                             {index === imgDisplay && <div className="image-number-overlay">
-                             <div className="number-container">
-                                {imgDisplay + 1}/{nomberImg}
-                            </div>
-
-                             </div>}
-                     
-
+                            <img key={index} className={index === imgDisplay ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Logement"/>
+                            {index === imgDisplay && <div className="image-number-overlay">
+                                <div className="number-container">
+                                    {imgDisplay + 1}/{nomberImg}
+                                </div>
+                            </div>}
                         </div>
-                       
                     )
                 })
             }
@@ -51,8 +47,7 @@ function Carrousel({images}) {
                 nomberImg > 1 && <img className="arrow arrow-right" src={fleche} alt="Contenu suivant" onClick={imgNext}/>
             }
             </div>
-        </section>
-       
+        </section>     
     );
 }
 
